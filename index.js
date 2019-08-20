@@ -10,6 +10,13 @@ function takeANumber(arrayname, custname)
   return arrayname
 }
 
+function takeANumber(arrayname)
+{
+  var len = arrayname.length; 
+  var text = "You are number " +  (len + 1) + " in line.";
+  return text
+}
+
 function nowServing(arrayname)
 {
   var len2 = arrayname.length; 
